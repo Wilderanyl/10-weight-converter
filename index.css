@@ -72,6 +72,25 @@ body .container .project-container .content {
   margin-top: 40px;
   padding: 10px;
   color: #f0dc4e;
+  width: 100%;
+}
+body .container .project-container .content .input {
+  width: 100%;
+}
+body .container .project-container .content .input input {
+  width: 100%;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+body .container .project-container .content .result {
+  margin-top: 20px;
+}
+body .container .project-container .content .error {
+  color: red;
+  margin-top: 20px;
 }
 body .project-container::before {
   content: "Project 10";

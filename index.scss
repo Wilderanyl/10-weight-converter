@@ -114,6 +114,21 @@ body {
         margin-top: $marginTop * 2;
         padding: 10px;
         color: $bgColorH;
+        width: 100%;
+        .input {
+          width: 100%;
+          input {
+            width: 100%;
+            @include inputStyle;
+          }
+        }
+        .result {
+          margin-top: $marginTop;
+        }
+        .error {
+          color: red;
+          margin-top: $marginTop;
+        }
       }
     }
   }
