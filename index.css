@@ -74,6 +74,10 @@ body .container .project-container .content {
   color: #f0dc4e;
   width: 100%;
 }
+body .container .project-container .content .title {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
 body .container .project-container .content .input {
   width: 100%;
 }
